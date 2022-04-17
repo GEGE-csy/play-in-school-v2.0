@@ -1,0 +1,52 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "玩转校园"
+			}
+		}, {
+			"path": "pages/home/home"
+
+		}, {
+			"path": "pages/book/book"
+
+		}, {
+			"path": "pages/course/course"
+
+
+		}, {
+			"path": "pages/intro/intro"
+
+
+		}, {
+			"path": "pages/car/car"
+
+
+		}, {
+			"path": "pages/service/service"
+
+
+		}, {
+			"path": "pages/share/share"
+
+		}, {
+			"path": "pages/course-login/course-login"
+		},
+		{
+			"path": "pages/network-class/network-class"
+		}, {
+			"path": "pages/lost-find-list/lost-find-list",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "玩转校园",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#f8f8f8"
+	}
+}
